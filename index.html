@@ -59,7 +59,7 @@
               <li class="list-inline-item">
                 <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2024.2407136" target="_blank">Paper</a>
               </li>
-              <li class="list-inline-item">
+              <li class="list-inline-item ml-4">
                 <a href="http://arxiv.org/" target="_blank">Arxiv</a>
               </li>
               <li class="list-inline-item ml-4">
@@ -81,9 +81,11 @@
           <!-- overview -->
           <div class="col-lg-10 offset-lg-1"><hr class="mt-4 mb-4"></div>
           <div class="col-lg-10 offset-lg-1">
-            <h4>Concept of Real-World Cooking Robot System</h4>
+            <h4>Real-World Cooking Robot System from Recipes</h4>
             <p>
-            Real-world cooking robot system considering food state changes from recipe descriptions using foundation models and classical planning PDDL.
+              Real-world cooking robot system considering food state changes from recipe descriptions using foundation models and classical planning PDDL.
+              The input recipe description is converted into the function sequence by the Large Language Model (LLM), and the executable action procedure is planned by classical planning of PDDL description from the sequence. The robot performs cooking actions while recognizing the state change of the ingredients by food state recognition learning from small data using the Vision-Language Model (VLM). Motion execution is performed using predefined action trajectories.
+
             </p>
             <div align="center" class="row mt-4">
               <div class="col-lg-10 offset-lg-1">
@@ -95,11 +97,12 @@
           <!-- design -->
           <div class="col-lg-10 offset-lg-1"><hr class="mt-4 mb-4"></div>
           <div class="col-lg-10 offset-lg-1">
-            <h4>Actuator Module Design</h4>
+            <h4>Real-World Executable Robotic Cooking Action Planning from Recipe</h4>
             <p>
             The modular actuator design with a lock-release mechanism. This module includes a worm gear and cycloidal gear that can switch between locked and released states by a locking lever. By using two joint attachments, various kinematic configurations can be generated.
             </p>
-            <img src="assets/img/module.png" class="img-fluid">
+            <!-- <img src="assets/img/module.png" class="img-fluid"> -->
+            <img src="assets/img/ar2023-recipe-plan-flow.eps" class="img-fluid">
           </div>
 
           <!-- system -->
